@@ -1,3 +1,2 @@
-let name = 'Джон';
-let admin = name;
-alert(admin);
+const ourPlanet = Earth;
+let userName;
