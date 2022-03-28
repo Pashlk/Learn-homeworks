@@ -1,6 +1,15 @@
-let jsName = prompt('Знаете ли вы, какое официальное название JavaScript?', '');
-if (jsName === 'ECMAScript') {
-    alert('Верно!');
+let userName = prompt('Кто там?', '');
+if (userName === null) {
+    alert('Отменено');
+} else if (userName === 'Админ') {
+    let password = prompt('Пароль?', '');
+    if (password === null) {
+        alert('Отменено');
+    } else if (password === 'Я Главный') {
+        alert('Здравствуйте!');
+    } else {
+        alert('Неверный пароль');
+    }
 } else {
-    alert('Неверно, правильный ответ ECMAScript, не знали?');
+    alert('Я вас не знаю');
 }
