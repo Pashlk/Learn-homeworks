@@ -1,3 +1,6 @@
-let a = prompt('Первое число?', 1);
-let b = prompt('Второе число?', 2);
-alert(+a + +b);
+let jsName = prompt('Знаете ли вы, какое официальное название JavaScript?', '');
+if (jsName === 'ECMAScript') {
+    alert('Верно!');
+} else {
+    alert('Неверно, правильный ответ ECMAScript, не знали?');
+}
