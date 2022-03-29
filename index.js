@@ -1,5 +1,9 @@
 let  i = 1;
-for(; i <= 10; i++) {
-    if (i % 2 !== 0 ) continue;
-    alert(i);
+while (true) {
+    let num = prompt('Введите число', '');
+    if (num <= 100) {
+        alert(num)
+    } else if (!num || num > 100) {
+        break
+    }
 }
